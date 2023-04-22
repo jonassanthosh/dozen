@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import axiosInstance from "@/pages/axiosIntsance";
+import axiosInstance from "@/axios/axiosIntsance";
 
 export default function QuoteComponent (){
   const [qDay, setqDay] = useState("");
