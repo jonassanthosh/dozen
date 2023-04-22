@@ -1,6 +1,4 @@
-import axiosInstance from "@/pages/axiosIntsance";
 import React from "react";
-import { IoIosArrowBack } from "react-icons/io";
 function Calender() {
   var b = new Date();
   var weeks = [];
@@ -16,8 +14,6 @@ function Calender() {
     });
   }
   return (
-    <div>
-      <h2 className='w-auto'>Welcome</h2>
       <div className='flex flex-row align-baseline overflow-auto'>
         {weeks?.map((k, i) => {
           return (
@@ -47,7 +43,6 @@ function Calender() {
           );
         })}
       </div>
-    </div>
   );
 }
 
