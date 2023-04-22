@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import Calender from './Calender'
-import PersonalCard from './personalCard'
+import PersonalCard from './PersonalCard'
 import TodayStat from './TodayStat';
 function MainContent() {
   return (
