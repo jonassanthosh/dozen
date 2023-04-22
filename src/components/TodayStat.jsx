@@ -7,7 +7,7 @@ export default function TodayStat({ chartData }) {
       <p className=' text-orange-800 text-3xl'>Today&apos;s Summary</p>
       {data?.map((data) => {
         return (
-          <div className='flex flex-col bg-orange-800 p-5 rounded-md '>
+          <div key={data.id} className='flex flex-col bg-orange-800 p-5 rounded-md '>
             <div className='flex'>
               <span>Task:</span>
               <p className=' pl-5 '>{data.Task}</p>
