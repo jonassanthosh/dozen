@@ -46,7 +46,7 @@ export default function PersonalCard() {
 
   return (
     <div className=' w-2/4 m-2 p-5 space-y-5 rounded-2xl overflow-auto'>
-      <p className=' text-orange-800 text-2xl'>This week's performance</p>
+      <p className=' text-orange-800 text-2xl'>This week&apos;s performance</p>
       <div>
         <p>Work Hours Clocked</p>
         <WorkStats chartData={userData} />

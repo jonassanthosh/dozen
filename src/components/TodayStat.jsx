@@ -4,7 +4,7 @@ import {data} from './TempData/TodayData'
 export default function TodayStat({ chartData }) {
   return (
     <div className='flex flex-col overflow-auto space-y-8 text-white w-2/4 m-2 p-5'>
-      <p className=' text-orange-800 text-3xl'>Today's Summary</p>
+      <p className=' text-orange-800 text-3xl'>Today&apos;s Summary</p>
       {data?.map((data) => {
         return (
           <div className='flex flex-col bg-orange-800 p-5 rounded-md '>
